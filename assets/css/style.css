@@ -36,3 +36,8 @@
   background-color: cornflowerblue;
   cursor: default;
 }
+
+.cell.bomb{
+  background-color: firebrick;
+  cursor: default;
+}
