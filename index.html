@@ -28,20 +28,22 @@
       <div class="settings-top w-100 d-flex justify-content-between align-items-center p-5">
         <h1 class="display-5 text-light">Campo minato</h1>
         <div class="settings">
-          <select name="difficulty px-5">
-            <option value="100">Difficolt&agrave; 1</option>
-            <option value="81">Difficolt&agrave; 2</option>
-            <option value="49">Difficolt&agrave; 3</option>
+          <select class="my-select lead" name="difficulty ">
+            <option value="100">Easy</option>
+            <option value="81">Medium</option>
+            <option value="49">Hard</option>
           </select>
-          <button class="btn btn-primary">Genera</button>
+          <button class="my-btn lead mx-3">Genera</button>
         </div>
       </div>
 
       <!-- ? Grid container -->
       <div class="container container-grid d-flex justify-content-center align-items-center flex-column">
+        <h2 class="display-4 text-light text-center">Evita le bombe disseminate nella mappa per vincere</h2>
         <div class="grid d-flex flex-wrap flex-row d-none">
+          <div class="mask d-none"></div>
         </div>
-        <output class="display-6 text-light text-center my-3"></output>
+        <output class="display-6 text-light text-center my-3 my-out"></output>
       </div>
     </div>
   </div>

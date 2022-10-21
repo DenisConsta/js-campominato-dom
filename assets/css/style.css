@@ -1,5 +1,9 @@
+:root{
+  --bg-color: #031424;
+}
+
 .bg-wrapper{
-  background-color: #031424;
+  background-color: var(--bg-color);
   height: 100vh;
 }
 
@@ -11,8 +15,29 @@
   height: 10%;
 }
 
+/* ? Select */
+.my-select{
+  background-color: var(--bg-color);
+  color: white;
+  font-size: 1rem;
+}
+
 .container-grid{
   height: 90%;
+}
+
+.my-btn{
+  background-color: var(--bg-color);
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+
+.my-btn:hover{
+  color: var(--bg-color);
+  border: 1px solid var(--bg-color);
+  background: white;
 }
 
 .grid{
@@ -20,6 +45,7 @@
   width: 500px;
   aspect-ratio: 1/1;
   border: 1px solid white;
+  position: relative;
 }
 
 .cell{
@@ -40,4 +66,15 @@
 .cell.bomb{
   background-color: firebrick;
   cursor: default;
+}
+
+.mask{
+  position: absolute;
+  width: 500px;
+  aspect-ratio: 1/1;
+}
+
+.my-out{
+  position: absolute;
+  bottom: 30px;
 }
