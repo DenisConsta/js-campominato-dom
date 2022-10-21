@@ -1,0 +1,38 @@
+.bg-wrapper{
+  background-color: #031424;
+  height: 100vh;
+}
+
+.debug{
+  border: 1px solid firebrick;
+}
+
+.settings-top{
+  height: 10%;
+}
+
+.container-grid{
+  height: 90%;
+}
+
+.grid{
+  box-sizing: content-box;
+  width: 500px;
+  aspect-ratio: 1/1;
+  border: 1px solid white;
+}
+
+.cell{
+  aspect-ratio: 1/1;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cell.clicked{
+  background-color: cornflowerblue;
+  cursor: default;
+}
